@@ -46,6 +46,7 @@ class MemoizeDisk(object):
             self.cache.sync()
             return object
 
+# From Paul Moore's Python Cookbook recipe 52201
 class Memoize(object):
     def __init__(self, fn):
         self.cache={}
