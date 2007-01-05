@@ -1,0 +1,9 @@
+INSTALLATION
+===============
+
+
+
+If you use the EGG system, you just need to run "easy_install dsalib" or
+"easy_install -U dsalib" if it's already installed.
+Otherwise, you must have the python-dev package installed and run "python
+setup.py install"
