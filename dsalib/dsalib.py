@@ -65,7 +65,6 @@ class Memoize(object):
 
 class DSABase:
     def __init__(self, architecture=None):
-        print "Using version 1.01"
         self.dsa_advisories = {}
         self.architecture = architecture or 'Intel IA-32'
         self.proxies = None
